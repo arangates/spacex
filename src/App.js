@@ -7,7 +7,9 @@ function App(props) {
 
         return (
             <Layout>
-                <LaunchProgram query={getParam(props.location.search)} history={props.history}/>
+            <LaunchProgram
+              query={getParam(props.location.search)}
+              history={props.history} />
             </Layout>
         )
 }
